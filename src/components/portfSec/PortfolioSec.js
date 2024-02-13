@@ -14,7 +14,7 @@ export const PortfolioSec = () => {
             ))}
           </div>
           <p className="portfolio-section__pet-projects__text">
-            Here{" "}
+            Here is my
             <a
               href="https://github.com/anton001-web"
               target="_blank"
@@ -22,7 +22,6 @@ export const PortfolioSec = () => {
             >
               github
             </a>
-            you can find more my pet web projects
           </p>
         </div>
       </div>
