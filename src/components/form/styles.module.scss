@@ -1,11 +1,17 @@
 .form_subTitle {
 }
 
+.form_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   gap: 25px;
   margin-bottom: 50px;
   margin-top: 10px;
@@ -13,6 +19,7 @@
 }
 
 .form_input {
+  width: 100%;
   cursor: pointer;
   border: none;
   background-color: inherit;

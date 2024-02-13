@@ -6,6 +6,7 @@ export const Form = () => {
   const form = useRef();
   const nameRef = useRef();
   const phoneRef = useRef();
+  const nameTgRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,6 +20,7 @@ export const Form = () => {
           console.log("SUCCESS!");
           nameRef.current.value = "";
           phoneRef.current.value = "";
+          nameTgRef.current.value = "";
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -31,17 +33,24 @@ export const Form = () => {
       <form ref={form} className={s.form} onSubmit={sendEmail}>
         <input
           className={s.form_input}
-          placeholder="Your name"
+          placeholder="Your name - Anton"
           type="text"
           name="user_name"
           ref={nameRef}
         />
         <input
           className={s.form_input}
-          placeholder="Your phone"
+          placeholder="Your phone - +777 7777 7777"
           type="phone"
           name="user_phone"
           ref={phoneRef}
+        />
+        <input
+          className={s.form_input}
+          placeholder="Your telegramm name - @nickname"
+          type="phone"
+          name="user_nickname"
+          ref={nameTgRef}
         />
         <input
           type="submit"
