@@ -1,0 +1,40 @@
+.form_subTitle {
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  gap: 25px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.form_input {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  border-bottom: 1px solid var(--color-transparent);
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 10px 5px 5px;
+}
+
+.submit_btn {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f6fa;
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  background: #2f3640 !important;
+  width: 100%;
+  max-width: 120px;
+}

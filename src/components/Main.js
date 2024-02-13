@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export const Main = ({children}) => {
-    return (
-        <div className="content">
-            {children}
-        </div>
-    )
-}
+export const Main = ({ children }) => {
+  return <div className="content">{children}</div>;
+};
