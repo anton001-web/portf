@@ -14,7 +14,7 @@ export const PortfolioSec = () => {
             ))}
           </div>
           <p className="portfolio-section__pet-projects__text">
-            Here is my
+            Here is my &nbsp;
             <a
               href="https://github.com/anton001-web"
               target="_blank"
